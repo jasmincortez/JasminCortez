@@ -1,0 +1,89 @@
+:root {
+    --white: #fffffe;
+    --black: #0d0d0d;
+    --purple: #624cab;
+    --gray: rgba(248, 248, 248, 1);
+    --shadowblack: rgba(0, 0, 0, 0.13);
+}
+
+.voice-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.voice-image {
+    height: 70vh;
+    width: auto;
+    margin-right: 30px;
+}
+
+.voice-info {
+    line-height: 1;
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 10px !important;
+    background-color: var(--white) !important;
+    border-radius: 10px;
+    box-shadow: var(--shadowblack) 0 3px 11px 0 !important;
+    width: 30%;
+}
+
+.p-info {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    text-align: left !important;
+}
+
+.audio-name {
+    margin: 0;
+    padding: 0;
+}
+
+audio {
+    margin-bottom: 30px;
+    width: 15vw;
+}
+
+.langs {
+    margin: 30px 0;
+}
+.lang-btn {
+    border: 2px solid var(--purple);
+    background-color: var(--white);
+    color: var(--black);
+    padding: 5px 10px 5px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.audios-pt {
+    display: none;
+}
+
+/* APP */
+@media (max-width: 767px) {
+    .voice-image {
+        display: none;
+        margin: 0;
+    }
+
+    .voice-info {
+        width: 70%;
+        margin: 30px auto;
+        padding: 0;
+    }
+    audio {
+        width: 60vw;
+    }
+    .scroll-btn {
+        font-size: smaller;
+        margin-top: 50px;
+    }
+}
