@@ -10,9 +10,6 @@ export default function Home() {
         backgroundColor: "transparent",
       }}
     >
-      <img src="" width="100%" />
-
-      {/* TODO: Fix remove img tag */}
       <Typography
         textAlign={"center"}
         sx={{
@@ -20,8 +17,9 @@ export default function Home() {
           fontWeight: "bold",
           fontSize: "7rem",
           color: "white",
-          mt: 25,
+          pt: 28,
           lineHeight: 1,
+          position: "relative",
         }}
       >
         {"Jasmin Cortez"}
@@ -34,6 +32,7 @@ export default function Home() {
           fontWeight: "bold",
           mb: 18,
           color: "white",
+          position: "relative",
         }}
       >
         {"actor, vo artist & singer-songwriter"}

@@ -14,8 +14,6 @@ interface Bg {
   backgroundPosition?: string;
 }
 
-// TODO add placeholder img
-// homeBG just to home
 const homeBg: Bg = {
   backgroundImage:
     "url('https://i.pinimg.com/736x/1a/38/61/1a38614440b50d2e9a6dff4704e6523a.jpg')",
@@ -29,6 +27,7 @@ export default function App() {
   const isDesktop = useMediaQuery(theme.breakpoints.up("lg"));
   const location = useLocation();
   const [bg, setBg] = useState<Bg | null>(homeBg);
+  const [isHome, setIsHome] = useState(true);
 
   const layout = useMemo(
     () => (isDesktop ? <DesktopLayout /> : <MobileLayout />),
@@ -38,8 +37,10 @@ export default function App() {
   useEffect(() => {
     if (location.pathname === "/home") {
       setBg(homeBg);
+      setIsHome(true);
     } else {
       setBg(null);
+      setIsHome(false);
     }
   }, [location]);
 
@@ -51,23 +52,23 @@ export default function App() {
         ...bg,
       }}
     >
-      {/* <video
+      <video
         src="./MiniReel.mp4"
         autoPlay
         loop
         muted
         playsInline
         style={{
-          marginTop: 60,
-          marginBottom: 0,
-          padding: 0,
+          top: 0,
           width: "100%",
           height: "100vh",
           overflow: "hidden",
           objectFit: "cover",
-          position: "fixed",
+          position: "absolute",
+          zIndex: 0,
+          display: isHome ? "block" : "none",
         }}
-      /> */}
+      />
       <CssBaseline />
       {layout}
     </Box>
