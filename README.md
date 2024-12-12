@@ -1,9 +1,7 @@
-### Hi there 👋
+# Jasmin Cortez
 
-Hello! This is my acting portfolio repo.
-But here is a little about me:
+This repo acts as the codebase for the `jasmincortez.com` domain.
 
-- 🔭 I’m currently working on converting all my projects into React.js
-- 🌱 I’m currently learning A LOT of React.js
-- 📫 How to reach me: jasmincortez_@outlook.com
-- 😄 Pronouns: she/they
+## Tech stack
+
+This project is built in React + TypeScript, utilises the Material UI library for its components, and is compiled with Vite.
