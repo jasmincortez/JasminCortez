@@ -31,8 +31,8 @@ export default function Acting() {
     >
       <Stack
         direction={"row"}
-        spacing={4}
-        sx={{ justifyContent: "center", mb: 5, mt: 15 }}
+        spacing={isDesktop ? 4 : 2}
+        sx={{ justifyContent: "center", mb: 5, mt: isDesktop ? 15 : 5 }}
       >
         <Button
           variant="contained"

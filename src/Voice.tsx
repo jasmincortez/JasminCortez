@@ -19,7 +19,7 @@ export default function Voice() {
         spacing={2}
         alignItems={"center"}
         sx={{
-          mt: 15,
+          mt: isDesktop ? 15 : 5,
         }}
       >
         <Avatar

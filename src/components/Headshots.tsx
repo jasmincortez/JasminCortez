@@ -1,5 +1,5 @@
 import theme from "@/theme";
-import { Button, Stack } from "@mui/material";
+import { Button, Stack, useMediaQuery } from "@mui/material";
 import Box from "@mui/material/Box";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 
 export default function Headshots() {
+  const isDesktop = useMediaQuery(theme.breakpoints.up("lg"));
   return (
     <Box
       sx={{
@@ -16,7 +17,12 @@ export default function Headshots() {
     >
       <Typography
         variant="h2"
-        sx={{ fontFamily: "Playfair Display", fontSize: "3rem", mt: 15, mb: 5 }}
+        sx={{
+          fontFamily: "Playfair Display",
+          fontSize: "3rem",
+          mt: isDesktop ? 15 : 5,
+          mb: 5,
+        }}
       >
         Headshots
       </Typography>

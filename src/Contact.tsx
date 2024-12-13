@@ -22,7 +22,7 @@ export default function Contact() {
           fontWeight: "bold",
           fontSize: "3rem",
           mb: 3,
-          mt: 25,
+          mt: isDesktop ? 25 : 5,
         }}
       >
         {"Contact me"}

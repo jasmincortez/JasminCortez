@@ -1,8 +1,16 @@
-import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Container,
+  Stack,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import theme from "./theme";
 import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 
 export default function Home() {
+  const isDesktop = useMediaQuery(theme.breakpoints.up("lg"));
   return (
     <Box
       sx={{
@@ -17,7 +25,7 @@ export default function Home() {
           fontWeight: "bold",
           fontSize: "7rem",
           color: "white",
-          pt: 28,
+          pt: isDesktop ? 28 : 10,
           lineHeight: 1,
           position: "relative",
         }}
