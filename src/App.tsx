@@ -53,7 +53,7 @@ export default function App() {
       }}
     >
       <video
-        src="./MiniReel.mp4"
+        src="./MiniReel2025.mp4"
         autoPlay
         loop
         muted
