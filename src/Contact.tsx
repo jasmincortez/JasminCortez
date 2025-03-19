@@ -36,17 +36,28 @@ export default function Contact() {
         }
       </Typography>
       <Stack direction={"row"} justifyContent={"center"} spacing={2}>
-        <Button variant="contained" size="large" startIcon={<InstagramIcon />}>
+        <Button
+          variant="contained"
+          size="large"
+          href="https://instagram.com/jasmincortez"
+          startIcon={<InstagramIcon />}
+        >
           Instagram
         </Button>
         <Button
           variant="contained"
           size="large"
+          href="mailto:jasmincortez_@outlook.com"
           startIcon={<MailOutlineIcon />}
         >
           Email
         </Button>
-        <Button variant="contained" size="large" startIcon={<StarBorderIcon />}>
+        <Button
+          variant="contained"
+          size="large"
+          href="https://www.spotlight.com/1719-1271-5115"
+          startIcon={<StarBorderIcon />}
+        >
           Spotlight
         </Button>
       </Stack>
