@@ -51,7 +51,7 @@ export default function Voice() {
         {"Native Portuguese and English speaker."}
         <br />
         {
-          "Experienced in many areas of voiceover such as; video games, action play, commercial, corporate, e-learning and radio dramas… to name a few."
+          "Experienced in many areas of voiceover such as; video games, actual play, commercial, corporate, e-learning and radio dramas… to name a few."
         }
       </Typography>
       <Stack
