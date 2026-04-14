@@ -121,27 +121,31 @@ export default function Home() {
         <Typography textAlign={"justify"}>
           <br />
           {
-            "Jasmin is a Brazilian-German actor, VO artist and singer-songwriter."
+            "Jasmin Cortez (they/she) is a Brazilian-German actor, voice actor and mezzo-soprano singer-songwriter, raised speaking both fluent English (US) and Portuguese (BR)."
           }
           <br />
           {
-            "After graduating with a leading role from CAL drama school, in the city of Rio de Janeiro - Brazil, Jasmin was in the supporting cast for feature film Fox Sisters (2023) and prime video's 5x Comédia (2021). "
+            "Having started their studies in musical theatre at a young age, Jasmin graduated from Casa das Artes de Laranjeiras drama school in Rio de Janeiro, Brazil."
           }
           <br />
           {
-            "She had her theatre debut in Pentesiléia (2020) and entered the international theatre scene in the main cast of the musical Monstersongs (2022) and the play Noir Suspicions (2022) in Amsterdam. Outside of theatre and film, Jasmin has also been in commercials, most recently in Bet365's Never Ordinary campaign (2023). "
+            "Entering the international acting scene in Amsterdam, Jasmin starred in some local productions until moving to London."
           }
           <br />
           {
-            "In the voice acting world, they have been a founding cast member and producer in MythBringers's action play project (2024, ongoing)."
+            "With a passion for both screen and stage, she has worked in musical theatre, commercials, feature and short films and stage theatre."
           }
           <br />
           {
-            "Jasmin started studying musical theatre at 13 and followed that starring in Frozen - Uma Aventura Musical (2018)."
+            "Recently, Jasmin entered the voice acting world through Actual Plays of the TTRPG Dungeons&Dragons, both as a player and a Game Master. "
           }
           <br />
           {
-            "Their's single Volta e Meia is featured in prime video's Making My Life's Script."
+            "Since then, they have worked on audiobooks, and dreams of voicing characters for the gaming industry."
+          }
+          <br />
+          {
+            "Loving fantasy worlds, TTRPGs, nature and art, Jasmin looks to combine it all creating works that touch people's hearts."
           }
         </Typography>
       </Container>
