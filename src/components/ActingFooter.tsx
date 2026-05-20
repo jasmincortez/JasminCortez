@@ -13,7 +13,7 @@ export default function ActingFooter() {
       <Button
         variant="contained"
         target="_blank"
-        href="https://pdfhost.io/v/DnO~rawyK_Jasmin_Cortez_Acting_CV"
+        href="https://drive.google.com/file/d/1jEECSwxuo6ICswpQ0zhZhqy-S3Q1Wmdr/view?usp=sharing"
         sx={{
           color: theme.palette.font.main,
           minWidth: 0,
