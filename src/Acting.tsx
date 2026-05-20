@@ -99,7 +99,7 @@ export default function Acting() {
         <Button
           target="_blank"
           component="a"
-          href="https://youtu.be/lCz3bbNA_mM"
+          href="https://youtu.be/SgsGffDwF-8"
           sx={{
             color: theme.palette.font.main,
             minWidth: 0,
