@@ -61,12 +61,12 @@ export default function Home() {
             src="https://staticassets.spotlight.com/spotlight-logo-colored.svg"
             alt="icon"
             style={{
-              width: 70,
+              width: 80,
             }}
           />
         </Button>
         {/* Elenco Digital */}
-        <Button
+        {/* <Button
           target="_blank"
           component="a"
           href="https://elencodigital.com.br/JasminCortez"
@@ -82,7 +82,7 @@ export default function Home() {
               width: 70,
             }}
           />
-        </Button>
+        </Button> */}
       </Stack>
       <Container sx={{ mt: 35, pb: 10 }}>
         {/* Reels Buttons*/}
