@@ -90,7 +90,7 @@ export default function Acting() {
 
       <Typography textAlign={"justify"} sx={{ fontSize: "1rem", mb: 5 }}>
         {
-          "Here are some highlights of projects I was in. For more credits and information, you can view my cv as a PDF, in Spotlight (EN) or in Elenco Digital (PT)."
+          "Here are some highlights of projects I was in. For more credits and information, you can view my cv as a PDF or on Spotlight (EN)."
         }
       </Typography>
       {/* Reels Buttons*/}
