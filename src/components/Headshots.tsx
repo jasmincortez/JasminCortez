@@ -54,7 +54,7 @@ export default function Headshots() {
           >
             Spotlight CV
           </Button>
-          <Button
+          {/* <Button
             variant="contained"
             target="_blank"
             href="https://elencodigital.com.br/JasminCortez"
@@ -66,7 +66,7 @@ export default function Headshots() {
             }}
           >
             Elenco Digital CV
-          </Button>
+          </Button> */}
         </Stack>
       </Box>
 

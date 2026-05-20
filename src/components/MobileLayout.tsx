@@ -69,7 +69,7 @@ export default function MobileLayout() {
         />
       </Button>
       {/* Elenco Digital */}
-      <Button
+      {/* <Button
         target="_blank"
         component="a"
         href="https://elencodigital.com.br/JasminCortez"
@@ -85,7 +85,7 @@ export default function MobileLayout() {
             width: 25,
           }}
         />
-      </Button>
+      </Button> */}
     </Box>
   );
 

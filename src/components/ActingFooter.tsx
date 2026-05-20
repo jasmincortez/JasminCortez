@@ -36,7 +36,7 @@ export default function ActingFooter() {
       >
         Spotlight CV
       </Button>
-      <Button
+      {/* <Button
         variant="contained"
         target="_blank"
         href="https://elencodigital.com.br/JasminCortez"
@@ -48,7 +48,7 @@ export default function ActingFooter() {
         }}
       >
         Elenco Digital CV
-      </Button>
+      </Button> */}
     </Stack>
   );
 }
