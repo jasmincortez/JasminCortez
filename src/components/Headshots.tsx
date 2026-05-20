@@ -140,41 +140,4 @@ const itemData = [
     title: "headshot",
     img: "./headshots/hs6.JPEG",
   },
-
-  {
-    title: "headshot",
-    img: "./headshots/hs13.JPEG",
-  },
-  {
-    title: "headshot",
-    img: "./headshots/hs5.JPEG",
-  },
-  {
-    title: "headshot",
-    img: "./headshots/old1.JPG",
-  },
-  {
-    title: "headshot",
-    img: "./headshots/old2.JPG",
-  },
-  {
-    title: "headshot",
-    img: "./headshots/old3.JPG",
-  },
-  {
-    title: "headshot",
-    img: "./headshots/old4.JPG",
-  },
-  {
-    title: "headshot",
-    img: "./headshots/old5.jpeg",
-  },
-  {
-    title: "headshot",
-    img: "./headshots/old6.jpg",
-  },
-  {
-    title: "headshot",
-    img: "./headshots/me.jpeg",
-  },
 ];
