@@ -12,6 +12,7 @@ interface Bg {
   backgroundSize?: string;
   backgroundRepeat?: string;
   backgroundPosition?: string;
+  height?: string;
 }
 
 const homeBg: Bg = {
@@ -20,6 +21,7 @@ const homeBg: Bg = {
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "50% 20%",
+  height: "100vh",
 };
 
 export default function App() {
@@ -28,6 +30,7 @@ export default function App() {
   const location = useLocation();
   const [bg, setBg] = useState<Bg | null>(homeBg);
   const [isHome, setIsHome] = useState(true);
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
   const layout = useMemo(
     () => (isDesktop ? <DesktopLayout /> : <MobileLayout />),
@@ -49,11 +52,12 @@ export default function App() {
       sx={{
         width: "100vw",
         transition: "background-color 500ms ease-in-out",
-        ...bg,
+        ...(!isVideoLoaded ? bg : null),
       }}
     >
       <video
         src="./MiniReel2025.mp4"
+        onCanPlay={() => setIsVideoLoaded(true)}
         autoPlay
         loop
         muted

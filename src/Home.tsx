@@ -12,81 +12,83 @@ import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 export default function Home() {
   const isDesktop = useMediaQuery(theme.breakpoints.up("lg"));
   return (
-    <Box
-      sx={{
-        height: "100vh",
-        backgroundColor: "transparent",
-      }}
-    >
-      <Typography
-        textAlign={"center"}
+    <Stack>
+      <Box
         sx={{
-          fontFamily: "Lora",
-          fontWeight: "bold",
-          fontSize: "7rem",
-          color: "white",
-          pt: isDesktop ? 28 : 10,
-          lineHeight: 1,
-          position: "relative",
+          height: "100vh",
+          backgroundColor: "transparent",
         }}
       >
-        {"Jasmin Cortez"}
-      </Typography>
-      <Typography
-        textAlign={"center"}
-        sx={{
-          textTransform: "uppercase",
-          fontSize: "1.25rem",
-          fontWeight: "bold",
-          mb: 18,
-          color: "white",
-          position: "relative",
-        }}
-      >
-        {"actor, vo artist & singer-songwriter"}
-      </Typography>
-      {/* Buttons for Spotlight and Elenco Digital */}
-      <Stack direction={"row"} justifyContent={"center"} spacing={2}>
-        {/* Spotlight */}
-        <Button
-          target="_blank"
-          component="a"
-          href="https://www.spotlight.com/1719-1271-5115"
+        <Typography
+          textAlign={"center"}
           sx={{
-            color: theme.palette.font.main,
-            minWidth: 0,
+            fontFamily: "Lora",
+            fontWeight: "bold",
+            fontSize: "7rem",
+            color: "white",
+            pt: isDesktop ? 28 : 10,
+            lineHeight: 1,
+            position: "relative",
           }}
         >
-          <img
-            src="https://staticassets.spotlight.com/spotlight-logo-colored.svg"
-            alt="icon"
-            style={{
-              width: 80,
-            }}
-          />
-        </Button>
-        {/* Elenco Digital */}
-        {/* <Button
-          target="_blank"
-          component="a"
-          href="https://elencodigital.com.br/JasminCortez"
+          {"Jasmin Cortez"}
+        </Typography>
+        <Typography
+          textAlign={"center"}
           sx={{
-            color: theme.palette.font.main,
-            minWidth: 0,
+            textTransform: "uppercase",
+            fontSize: "1.25rem",
+            fontWeight: "bold",
+            mb: 18,
+            color: "white",
+            position: "relative",
           }}
         >
-          <img
-            src="https://i.pinimg.com/originals/41/01/33/410133be212eb1ef8d57bd4cb2d8cf1c.png"
-            alt="icon"
-            style={{
-              width: 70,
+          {"actor, vo artist & singer-songwriter"}
+        </Typography>
+        {/* Buttons for Spotlight and Elenco Digital */}
+        <Stack direction={"row"} justifyContent={"center"} spacing={2}>
+          {/* Spotlight */}
+          <Button
+            target="_blank"
+            component="a"
+            href="https://www.spotlight.com/1719-1271-5115"
+            sx={{
+              color: theme.palette.font.main,
+              minWidth: 0,
             }}
-          />
-        </Button> */}
-      </Stack>
-      <Container sx={{ mt: "100vh", pb: 10 }}>
+          >
+            <img
+              src="https://staticassets.spotlight.com/spotlight-logo-colored.svg"
+              alt="icon"
+              style={{
+                width: 80,
+              }}
+            />
+          </Button>
+          {/* Elenco Digital */}
+          {/* <Button
+            target="_blank"
+            component="a"
+            href="https://elencodigital.com.br/JasminCortez"
+            sx={{
+              color: theme.palette.font.main,
+              minWidth: 0,
+            }}
+          >
+            <img
+              src="https://i.pinimg.com/originals/41/01/33/410133be212eb1ef8d57bd4cb2d8cf1c.png"
+              alt="icon"
+              style={{
+                width: 70,
+              }}
+            />
+          </Button> */}
+        </Stack>
+      </Box>
+      <Box sx={{ pb: 10 }}>
         {/* Reels Buttons*/}
-        <Stack spacing={4} alignItems={"start"} sx={{ mb: 5 }}>
+        <Stack spacing={4} alignItems={"start"} sx={{ m: 5 }}>
           {/* Actings Reel */}
           <Button
             target="_blank"
@@ -148,7 +150,7 @@ export default function Home() {
             "Loving fantasy worlds, TTRPGs, nature and art, Jasmin looks to combine it all creating works that touch people's hearts."
           }
         </Typography>
-      </Container>
+      </Box>
       {/* TODO change direction to collumn on mobile and size to 100% */}
       <Stack
         direction={"row"}
@@ -175,6 +177,6 @@ export default function Home() {
           view my CV
         </Button>
       </Box>
-    </Box>
+    </Stack>
   );
 }
