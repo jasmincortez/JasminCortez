@@ -84,7 +84,7 @@ export default function Home() {
           />
         </Button> */}
       </Stack>
-      <Container sx={{ mt: 35, pb: 10 }}>
+      <Container sx={{ mt: "100vh", pb: 10 }}>
         {/* Reels Buttons*/}
         <Stack spacing={4} alignItems={"start"} sx={{ mb: 5 }}>
           {/* Actings Reel */}
