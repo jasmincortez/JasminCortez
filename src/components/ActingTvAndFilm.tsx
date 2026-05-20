@@ -8,7 +8,7 @@ export default function TvAndFilm() {
         name={"The Fox Sisters"}
         description={"Feature Film."}
         info={"Directed by Wagner de Assis, 2023."}
-        img={"./credits/fox.jpeg"}
+        img={"./credits/foxsisters.jpg"}
         side={"r"}
       />
       <Project
