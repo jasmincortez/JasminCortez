@@ -77,7 +77,7 @@ export default function Home() {
             }}
           >
             <img
-              src="./public/imdb pro.jpeg"
+              src="./public/imdbpro.jpeg"
               alt="icon"
               style={{
                 width: 70,
