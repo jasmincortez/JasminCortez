@@ -44,7 +44,7 @@ export default function Home() {
             position: "relative",
           }}
         >
-          {"actor, vo artist & singer-songwriter"}
+          {"actor, voice actor & singer-songwriter"}
         </Typography>
         {/* Buttons for Spotlight and Elenco Digital */}
         <Stack direction={"row"} justifyContent={"center"} spacing={2}>
