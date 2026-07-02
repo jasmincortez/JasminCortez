@@ -66,6 +66,25 @@ export default function Home() {
               }}
             />
           </Button>
+          {/* IMDB */}
+          <Button
+            target="_blank"
+            component="a"
+            href="https://imdb.me/jasmincortez"
+            sx={{
+              color: theme.palette.font.main,
+              minWidth: 0,
+            }}
+          >
+            <img
+              src="./public/imdb pro.jpeg"
+              alt="icon"
+              style={{
+                width: 70,
+                borderRadius: 15,
+              }}
+            />
+          </Button>
           {/* Elenco Digital */}
           {/* <Button
             target="_blank"
