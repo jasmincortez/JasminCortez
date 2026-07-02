@@ -66,7 +66,7 @@ export default function Home() {
               }}
             />
           </Button>
-          {/* IMDB */}
+          {/* IMDB pro */}
           <Button
             target="_blank"
             component="a"
