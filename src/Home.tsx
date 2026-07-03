@@ -77,7 +77,7 @@ export default function Home() {
             }}
           >
             <img
-              src="https://i.pinimg.com/736x/0d/3a/1d/0d3a1d50d264576245ddc270d20752dd.jpg"
+              src="./imdbpro.jpeg"
               alt="icon"
               style={{
                 width: 70,
